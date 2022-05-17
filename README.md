@@ -102,7 +102,7 @@
   </li>
 </ol>
 
-<strong>Query yang dibutuhkan untuk membuat VIEW</stong>
+<strong>Query yang dibutuhkan untuk membuat VIEW</strong>
 <code>
   SELECT id_kas, kasmasuk, " " as kaskeluar, (kasmasuk - 0) as saldo FROM tb_kasmasuk
   UNION
