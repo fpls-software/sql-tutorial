@@ -28,4 +28,17 @@
   </tbody>
  </table>
  
- <code>ashasa</code>
+<strong>Buat Table Kas Masuk dan Kas Keluar pada Database<strong>
+<ol>
+  <li>
+    Table KAS Keluar dengan nama <code>tb_kaskeluar</code>
+    <table border="1">
+      <thead style="text-align: center;">
+        <th>#</th>
+        <th>Type Data</th>
+        <th>Length</th>
+        <th></th>
+      </thead>
+    </table>
+  <li>
+</ol>
