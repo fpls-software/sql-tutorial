@@ -99,5 +99,12 @@
         </tr>
       </tbody>
     </table>
-  <li>
+  </li>
 </ol>
+
+<strong>Query yang dibutuhkan untuk membuat VIEW</stong>
+<code>
+  SELECT id_kas, kasmasuk, " " as kaskeluar, (kasmasuk - 0) as saldo FROM tb_kasmasuk
+  UNION
+  SELECT id_kas, " " as kasmasuk, kaskeluar, (0 - kaskeluar) as saldo FROM tb_kaskeluar
+</code>
