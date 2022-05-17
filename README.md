@@ -104,13 +104,13 @@
 
   <strong>Query yang dibutuhkan untuk membuat VIEW</strong> <br/></br>
 <code>
-  SELECT id_kas, kasmasuk, "0" as kaskeluar, (kasmasuk - 0) as saldo FROM tb_kasmasuk
+  SELECT id_kas, kasmasuk, "0" as kaskeluar, (kasmasuk - 0) as saldo, keterangan FROM tb_kasmasuk
   </code> <br/>
   <code>
   UNION
   </code><br/>
   <code>
-  SELECT id_kas, "0" as kasmasuk, kaskeluar, (0 - kaskeluar) as saldo FROM tb_kaskeluar
+  SELECT id_kas, "0" as kasmasuk, kaskeluar, (0 - kaskeluar) as saldo, keterangan FROM tb_kaskeluar
   </code> <br/>
 
   <strong>Penjelasan Kode</strong><br/><br/>
