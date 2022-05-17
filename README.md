@@ -119,3 +119,6 @@
   <br/>
   Alasan kenapa saya menggunakan angka 0 disini adalah form pada contoh kasus yang saya gunakan memisahkan kas masuk dan kas keluar, jadi pada saat penginput kas masuk maka nilai dari keluar akan otomatis bernilai 0, begitupun sebaliknya 
   
+  <br><br>
+  <h4>Sekian, Semoga Bermanfaat</h4>
+  
