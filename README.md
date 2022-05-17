@@ -43,21 +43,49 @@
       <tbody>
         <tr>
           <td>1</td>
-          <td>id_kasmasuk</td>
+          <td>id_kas</td>
           <td>int</td>
           <td>5</td>
           <td>Primary</td>
         </tr>
         <tr>
-          <td>2</td>
-          <td>kasmasuk</td>
+          <td>3</td>
+          <td>kaskeluar</td>
           <td>int</td>
           <td>10</td>
           <td></td>
         </tr>
         <tr>
+          <td>4</td>
+          <td>keterangan</td>
+          <td>varchar</td>
+          <td>32</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    Table KAS Masuk dengan nama <code>tb_kasmasuk</code>
+    <table border="1">
+      <thead style="text-align: center;">
+        <th>#</th>
+        <th>Coloum Name</th>
+        <th>Type Data</th>
+        <th>Length</th>
+        <th></th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>id_kas</td>
+          <td>int</td>
+          <td>5</td>
+          <td>Primary</td>
+        </tr>
+        <tr>
           <td>3</td>
-          <td>kaskeluar</td>
+          <td>kasmasuk</td>
           <td>int</td>
           <td>10</td>
           <td></td>
