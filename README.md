@@ -35,10 +35,20 @@
     <table border="1">
       <thead style="text-align: center;">
         <th>#</th>
+        <th>Coloum Name</th>
         <th>Type Data</th>
         <th>Length</th>
         <th></th>
       </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>id_kasmasuk</td>
+          <td>int</td>
+          <td>5</td>
+          <td>Primary</td>
+        </tr>
+      </tbody>
     </table>
   <li>
 </ol>
