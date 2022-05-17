@@ -48,6 +48,27 @@
           <td>5</td>
           <td>Primary</td>
         </tr>
+        <tr>
+          <td>2</td>
+          <td>kasmasuk</td>
+          <td>int</td>
+          <td>10</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>kaskeluar</td>
+          <td>int</td>
+          <td>10</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>keterangan</td>
+          <td>varchar</td>
+          <td>32</td>
+          <td></td>
+        </tr>
       </tbody>
     </table>
   <li>
