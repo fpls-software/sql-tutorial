@@ -1,7 +1,7 @@
 # sql-tutorial
 <h1>Tutorial membuat VIEW Laporan KAS </h1>
 
-<strong>Format Laporan yang diinginkan</strong>
+<strong>Contoh Format Laporan yang diinginkan</strong>
 <table border="1">
   <thead style="text-align: center;">
     <th>No</th>
@@ -28,4 +28,4 @@
   </tbody>
  </table>
  
- 
+ <code>ashasa</code>
